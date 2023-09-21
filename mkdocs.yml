@@ -1,16 +1,18 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: obsidian-mkdocs template
+site_name: Networkly.app
+site_url: https://help.networkly.app
 
 theme:
     name: 'material'
+    language: 'ru'
     palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -18,8 +20,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
